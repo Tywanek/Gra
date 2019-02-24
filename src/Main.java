@@ -15,10 +15,11 @@ public class Main {
         if (x > liczba) {
             System.out.println("X jest wieksza");
             sprawdz(x);
-        } else if (x < liczba) {
+        }
+        else if (x < liczba) {
             System.out.println("X jest mniejsza");
             sprawdz(x);
-        } else {
+        }   else  {
             System.out.println("Sukces");
         }
     }
